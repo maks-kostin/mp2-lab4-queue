@@ -1,6 +1,6 @@
 #include "MyForm.h"
 #include <Windows.h>
-using namespace simulation; // Название проекта
+using namespace simulation;
 
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	Application::EnableVisualStyles();

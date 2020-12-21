@@ -49,12 +49,6 @@ namespace simulation {
 			CenterY = 320;
 			Width = Height = 200;
 			PopCount = PushCount = 0;
-			GreenPen = gcnew Pen(Color::Green);
-			YellowPen = gcnew Pen(Color::Yellow);
-			RedPen = gcnew Pen(Color::Red);
-			GreenPen->Width = 10.0F;
-			YellowPen->Width = 10.0F;
-			RedPen->Width = 10.0F;
 		}
 
 	protected:
@@ -190,56 +184,56 @@ namespace simulation {
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(77, 42);
+			this->label1->Location = System::Drawing::Point(28, 42);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(93, 13);
+			this->label1->Size = System::Drawing::Size(171, 13);
 			this->label1->TabIndex = 8;
-			this->label1->Text = L"Max size of queue";
+			this->label1->Text = L"Максимальный размер очереди";
 			// 
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(77, 83);
+			this->label2->Location = System::Drawing::Point(28, 83);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(108, 13);
+			this->label2->Size = System::Drawing::Size(149, 13);
 			this->label2->TabIndex = 9;
-			this->label2->Text = L"Original size of queue";
+			this->label2->Text = L"Искходный размер очереди";
 			// 
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->Location = System::Drawing::Point(77, 127);
+			this->label3->Location = System::Drawing::Point(28, 127);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(124, 13);
+			this->label3->Size = System::Drawing::Size(135, 13);
 			this->label3->TabIndex = 10;
-			this->label3->Text = L"Probability of occurrence";
+			this->label3->Text = L"Вероятность добавления";
 			// 
 			// label4
 			// 
 			this->label4->AutoSize = true;
-			this->label4->Location = System::Drawing::Point(77, 170);
+			this->label4->Location = System::Drawing::Point(28, 170);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(116, 13);
+			this->label4->Size = System::Drawing::Size(134, 13);
 			this->label4->TabIndex = 11;
-			this->label4->Text = L"Probability of extraction";
+			this->label4->Text = L"Вероятность извлечения";
 			// 
 			// label5
 			// 
 			this->label5->AutoSize = true;
-			this->label5->Location = System::Drawing::Point(77, 213);
+			this->label5->Location = System::Drawing::Point(28, 213);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(83, 13);
+			this->label5->Size = System::Drawing::Size(117, 13);
 			this->label5->TabIndex = 12;
-			this->label5->Text = L"Added to queue";
+			this->label5->Text = L"Добавлено в очередь";
 			// 
 			// label6
 			// 
 			this->label6->AutoSize = true;
-			this->label6->Location = System::Drawing::Point(77, 253);
+			this->label6->Location = System::Drawing::Point(28, 253);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(96, 13);
+			this->label6->Size = System::Drawing::Size(121, 13);
 			this->label6->TabIndex = 13;
-			this->label6->Text = L"Extract from queue";
+			this->label6->Text = L"Извлечено из очереди";
 			// 
 			// timer1
 			// 
